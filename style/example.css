@@ -1,0 +1,66 @@
+body {
+  margin-top: 190px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#signin {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 30px;
+}
+
+.info {
+  margin-left: 310px;
+}
+
+.info input {
+  width: 290px;
+  height: 25px;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+#id {
+  margin-bottom: -1px;
+  padding: 10px;
+}
+#pw {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+.remember {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+button {
+  width: 310px;
+  height: 48px;
+  margin-bottom: 36px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+p {
+  color: gray;
+}

@@ -3,7 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="style/example.css" />
   </head>
-  <body></body>
+  <body>
+    <form>
+      <img src="/assets/logo.svg" alt="" width="72" height="72" />
+      <div id="signin">Please sign in</div>
+      <div class="info">
+        <input
+          id="id"
+          type="email"
+          placeholder="Email address"
+          required
+          autofocus
+        />
+        <br />
+        <input id="pw" type="password" placeholder="Password" required />
+      </div>
+      <div class="remember">
+        <label> <input type="checkbox" /> Remember me </label>
+      </div>
+      <button type="submit">Sign in</button>
+      <p>&copy; 2017-2022</p>
+    </form>
+  </body>
 </html>
