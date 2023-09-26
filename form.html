@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      fieldset,
+      .gender,
+      .favorite,
+      .date,
+      .region {
+        margin-bottom: 20px;
+      }
+      fieldset {
+        margin-top: 20px;
+      }
+      .gender {
+        border: 1px dotted;
+        color: rgb(230, 125, 64);
+      }
+      .favorite {
+        border: 1px dotted;
+        color: rgb(235, 120, 139);
+      }
+      .region {
+        border: 1px dotted;
+        color: rgb(103, 74, 181);
+      }
+      .date {
+        border: 1px dotted;
+        color: rgb(73, 157, 50);
+      }
+      .submit {
+        text-align: center;
+      }
+      button {
+        width: 100px;
+        height: 50px;
+        display: inline-block;
+        background-color: rgb(223, 159, 218);
+        border: none;
+      }
+      a {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div>
+        <h1>About You</h1>
+        <h4>
+          going back to:
+          <a href="style1.html">Stylesheet1,</a>
+          <a href="style2.html">Stylesheet2,</a>
+          <a href="example.html">Bootstrap,</a>
+          <a href="form.html">Form.</a>
+        </h4>
+        <div>
+          <fieldset>
+            <legend>Information</legend>
+            이름은? <input type="text" /> 학번은? <input type="text" />
+          </fieldset>
+        </div>
+        <div class="gender">
+          <h4>당신의 성별은?</h4>
+          <input type="radio" /> 여자 <input type="checkbox" /> 남자
+        </div>
+        <div class="favorite">
+          <h4>당신이 가장 좋아하는 음식은?</h4>
+          <input type="checkbox" /> 떡볶이 <input type="checkbox" /> 피자
+          <input type="checkbox" /> 족발 <input type="checkbox" /> 치킨
+          <input type="checkbox" /> 샐러드 <input type="checkbox" /> 파스타
+          <input type="checkbox" /> 비빔밥 <input type="checkbox" /> 돈까스
+        </div>
+        <div class="region">
+          <h4>당신의 출신 지역은?</h4>
+          <select>
+            <option>서울특별시</option>
+            <option>경기도</option>
+            <option>충청도</option>
+            <option>경상도</option>
+            <option>제주도</option>
+            <option>전라도</option>
+          </select>
+        </div>
+        <div class="date">
+          <h4>당신에게 가장 의미있는 날은?</h4>
+          <input
+            type="date"
+            value="2023-09-25"
+            min="2000-01-01"
+            max="2023-09-25"
+          />
+        </div>
+        <div>
+          <h4>당신이 생각하는 개발자란?:</h4>
+          <textarea name="opinion" cols="100" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="submit">
+        <button onclick="alert('정상제출 되었습니다. 감사합니다!')">
+          응답제출
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
